@@ -1,4 +1,6 @@
-CREATE TABLE cust.customer6 (
+CREATE SCHEMA IF NOT EXISTS customer;
+
+CREATE TABLE customer.customer6 (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(255),
     last_name VARCHAR(255),

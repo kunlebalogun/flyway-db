@@ -28,7 +28,7 @@ jobs:
 
 
   deploy-to-prod:
-    needs: test
+    needs: test-to-db
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

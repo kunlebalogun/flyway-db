@@ -2,7 +2,7 @@ name: postgresql-flyway-migrations
 on:
   - push
 jobs:
-  test:
+  test-to-db:
     runs-on: ubuntu-latest
     services:
       postgres:

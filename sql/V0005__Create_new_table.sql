@@ -7,4 +7,5 @@ CREATE TABLE customer.customer6 (
     email VARCHAR(255),
     phone_number VARCHAR(20),
     address TEXT
+    
 );
